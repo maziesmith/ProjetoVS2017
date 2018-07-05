@@ -5,6 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Projeto de Estudo 
+//Fonte: https://www.youtube.com/watch?v=s7GxuVY2Z-0&t=0s&index=44&list=WL
+//Canal: Como Programar Melhor
+//05 de julho de 2018
+
 namespace Mini.Console
 {
     class Program
