@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 
 namespace Mini.Console
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Minimatizar(string[] args)
         {
             var origem = string.Empty;
             var destino = string.Empty;
@@ -24,13 +24,12 @@ namespace Mini.Console
                 if (args[i].StartsWith("/o="))
                 {
                     origem = args[i].Split('=')[1];
-                }else if(args[i].StartsWith("/d="))
+                }
+                else if (args[i].StartsWith("/d="))
                 {
                     destino = args[i].Split('=')[1];
                 }
             }
-
-            System.Console.Out.WriteLine("Minimalizando ...");
 
             var dadosOrigem = File.ReadAllText(origem);
             var dadosDestino = dadosOrigem.Replace(Environment.NewLine, "");
@@ -38,6 +37,13 @@ namespace Mini.Console
             dadosDestino = string.Join(" ", dadosDestino.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries));
 
             File.WriteAllText(destino, dadosDestino);
+        }
+
+        static void Main(string[] args)
+        {
+            System.Console.Out.WriteLine("Minimalizando ...");
+
+            Minimatizar(args);
 
             System.Console.ReadKey();
 
