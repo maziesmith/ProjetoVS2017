@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,11 @@ namespace Mini.Classes
 {
     public class MinimizadorC
     {
+        public static string ConnectionString()
+        {
+            return ConfigurationManager.ConnectionStrings["frmPrincipal"].ConnectionString;
+        }
+
         public static void Minimatizar(string[] args)
         {
             var origem = string.Empty;
