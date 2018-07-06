@@ -79,9 +79,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mini.Console\Mini.Console.csproj">
-      <Project>{53fa7a24-7499-46a6-bc18-88e9eb25956b}</Project>
-      <Name>Mini.Console</Name>
+    <ProjectReference Include="..\Mini.Classes\Mini.Classes.csproj">
+      <Project>{a8c79fc2-b429-43f4-b8c3-519268db0725}</Project>
+      <Name>Mini.Classes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

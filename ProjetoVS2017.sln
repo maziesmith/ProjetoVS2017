@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini.Console", "Mini.Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini.Forms", "Mini.Forms\Mini.Forms.csproj", "{1893B731-5E64-4731-9AD4-3F91BDE91189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini.Classes", "Mini.Classes\Mini.Classes.csproj", "{A8C79FC2-B429-43F4-B8C3-519268DB0725}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1893B731-5E64-4731-9AD4-3F91BDE91189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1893B731-5E64-4731-9AD4-3F91BDE91189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1893B731-5E64-4731-9AD4-3F91BDE91189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C79FC2-B429-43F4-B8C3-519268DB0725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C79FC2-B429-43F4-B8C3-519268DB0725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C79FC2-B429-43F4-B8C3-519268DB0725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C79FC2-B429-43F4-B8C3-519268DB0725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

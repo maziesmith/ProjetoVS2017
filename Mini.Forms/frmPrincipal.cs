@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mini.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +30,8 @@ namespace Mini.Forms
 
         private void btnExec_Click(object sender, EventArgs e)
         {
-            Mini.Console.Program.Minimatizar( new string[]{ "/o=" + txtOrigem.Text, "/d=" + txtDestino.Text});
+            
+            MinimizadorC.Minimatizar( new string[]{ "/o=" + txtOrigem.Text, "/d=" + txtDestino.Text});
         }
     }
 }
