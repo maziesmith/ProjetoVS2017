@@ -13,6 +13,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mini.Shared", "Mini.Shared\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini.Wpf", "Mini.Wpf\Mini.Wpf.csproj", "{F39D5E9E-8A70-4442-94F3-3E1957A9FF5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini.WebForms", "Mini.WebForms\Mini.WebForms.csproj", "{AB468509-1F05-4389-9E0B-332422BEEFCB}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Mini.Shared\Mini.Shared.projitems*{1fa4ee04-e056-470c-b5b2-da77cfb76948}*SharedItemsImports = 13
@@ -39,6 +41,10 @@ Global
 		{F39D5E9E-8A70-4442-94F3-3E1957A9FF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F39D5E9E-8A70-4442-94F3-3E1957A9FF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F39D5E9E-8A70-4442-94F3-3E1957A9FF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB468509-1F05-4389-9E0B-332422BEEFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB468509-1F05-4389-9E0B-332422BEEFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB468509-1F05-4389-9E0B-332422BEEFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB468509-1F05-4389-9E0B-332422BEEFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
